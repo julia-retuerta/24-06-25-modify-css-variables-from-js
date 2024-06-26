@@ -1,5 +1,11 @@
 .scroll-rectangle {
-  width: 30px;
+  position: fixed;
+  width: var(--box-width);
   height: 30px;
   background-color: var(--primary-color);
+}
+
+.scroll-count {
+  //position: fixed;
+  top: 20px;
 }

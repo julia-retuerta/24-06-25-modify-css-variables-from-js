@@ -1,6 +1,12 @@
 .mouse-square {
-  position: absolute;
-  width: 20px;
-  height: 20px;
+  position: fixed;
+  top: var(--mouse-box-top);
+  left: var(--mouse-box-left);
+  width: var(--mouse-box-width);
+  height: var(--mouse-box-height);
   background-color: cornflowerblue;
+  translate: -20px -20px;
+  pointer-events: none;
 }
+
+//  pointer-events: none; Esto es para ignorar todos los eventos del ratón, en este caso sirve para poder hacer click en los botones
