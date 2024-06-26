@@ -4,10 +4,6 @@ import '../scss/styles.scss';
 //coge todo lo que hay en el root de css
 /* const rootStyles = document.documentElement.style;
 
-// Desplazamiento vertical (scrollY)
-// Altura del documento (scrollHeight -> 4520)
-// Altura de la Ventana (innerHeight)
-
 const inputColorElement = document.getElementById('input-color');
 
 inputColorElement.addEventListener('input', event => {
@@ -24,9 +20,9 @@ rootStyles.setProperty('--primary-color', 'green'); */
 
 /* - Crea un div de color rojo y colócalo en la parte superior izquierda de tu web. Haz que tu web tenga un min-height de 500vh para generar scroll. El div deberá sincronizarse con el scroll, si estás arriba del todo medirá 0 de ancho y si está abajo del todo medirá el 100%, según vayas haciendo scroll el div deberá ir creciendo o encogiendo en función de si subes o bajas. */
 
-// buscar la relación entre el ancho y el scroll, regla de 3, si abajo mide tanto...
-// Añadir un evento que escuche el scroll de la página
-// Calcular la cantidad de desplazamiento vertical
+// Desplazamiento vertical (scrollY)
+// Altura del documento (scrollHeight)
+// Altura de la Ventana (innerHeight)
 
 // - window.innerHeight -> restar el trozo que se está viendo
 
